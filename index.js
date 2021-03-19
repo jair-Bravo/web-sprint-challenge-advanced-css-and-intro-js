@@ -249,9 +249,9 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
 function get20s(array){
   let newArray = [];
-  for(let i = 0; i < artists.length; i++){
-    if(array[i].years > 1900 && array[i].years < 2000){
-      newArray.push(artists[i].name)
+  for(let i = 0; i < array.length; i++){
+    if (array[i].years > 1900 && array[i].years < 2000){
+      newArray.push(array[i].name)
     }
   }
   return newArray;
@@ -280,7 +280,7 @@ function get20s(array){
  For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
 function removeArtist(array){
-   array = artists[i].splice
+  array = artists[i].splice
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -313,7 +313,13 @@ Use lotsOfArt to do the following:
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
 function lotsOfArt(array){
-  /*Your Code Here*/
+  let newArray = [];
+  for(let i = 0; i < array.length; i++){
+    if (array[i].paintings > 100){
+      newArray.push(array[i].name);
+    }
+  }
+  return newArray;
 }
 
 
