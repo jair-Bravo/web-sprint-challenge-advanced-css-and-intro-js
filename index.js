@@ -294,10 +294,11 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(){
-  }
+function addArtist(id, name, years, genre, nationality, bio){
+  return{id, name, years, genre, nationality, bio};
+    }
 
-  
+console.log(addArtist(20, "jair", "1993", "web design","Mexican" ,"lorem ipsum" ));  
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
