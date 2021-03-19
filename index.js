@@ -300,6 +300,9 @@ function addArtist(id, name, years, genre, nationality, bio){
 
 console.log(addArtist(20, "jair", "1993", "web design","Mexican" ,"lorem ipsum" ));  
 
+
+
+
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
 1. Receive an array 
