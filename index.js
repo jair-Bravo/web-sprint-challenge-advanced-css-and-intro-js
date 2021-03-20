@@ -302,7 +302,7 @@ function addArtist(array){
     years: '1993 - March 19, 2021',
     genre: 'Web Design', 
     nationality: 'Brand new American Citizen',
-    bio: 'Professional raver and edm festival attendee.'
+    bio: 'Sports aficionado and tequila conoseur..? idk if I spelt that correct..'
   };
 
   array.push(artist);
